@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Nunito+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&display=swap');
 
 @layer base {
   :root {
@@ -52,8 +52,9 @@
     --sidebar-border: 210 20% 90%;
     --sidebar-ring: 195 80% 28%;
 
-    --font-heading: 'Space Grotesk', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Nunito Sans', sans-serif;
+    --font-brand: 'Cormorant Garamond', serif;
   }
 
   .dark {
@@ -103,6 +104,17 @@
 }
 
 @layer utilities {
+  .font-brand {
+    font-family: var(--font-brand);
+    letter-spacing: 0.04em;
+  }
+
+  .font-nav {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+
   .text-gradient {
     @apply bg-clip-text text-transparent;
     background-image: linear-gradient(135deg, hsl(195 80% 28%), hsl(195 60% 45%));

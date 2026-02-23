@@ -138,8 +138,8 @@ export default {
     extend: {
       /* ================= Fonts ================= */
       fontFamily: {
-        heading: ["Space Grotesk", "sans-serif"],
-        body: ["Inter", "sans-serif"],
+        heading: ["Playfair Display", "serif"],
+        body: ["Nunito Sans", "sans-serif"],
       },
 
       /* ================= Colors ================= */

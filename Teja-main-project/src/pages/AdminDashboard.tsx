@@ -59,7 +59,7 @@ const AdminDashboard = () => {
       {/* Header */}
       <header className="bg-navy border-b border-primary/20">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-          <Link to="/" className="font-heading text-2xl font-bold text-primary-foreground tracking-tight">
+          <Link to="/" className="font-brand text-2xl font-bold text-primary-foreground tracking-tight">
             TEJA
           </Link>
           <div className="flex items-center gap-4">
@@ -200,3 +200,5 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+
+
